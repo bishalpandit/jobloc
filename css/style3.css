@@ -1,0 +1,45 @@
+body {
+
+    font-family: "Montserrat";
+}
+
+h3 {
+
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: white;
+    padding-left: 50px;
+    padding-top: 30px;
+    
+}
+
+p {
+
+    color: darkslategray;
+    font-size: 1rem;
+    font-weight: 520;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px 0;
+    
+
+}
+
+.text {
+
+    margin-left: 35%;
+    
+}
+.container:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 1500px;
+  top: -10%;
+  right: 70%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(-45deg, #f4976c 0%, #f4976c 100%);
+  transition: 1.8s ease-in-out;
+  border-radius: 50%;
+  z-index: -1;
+}
+
